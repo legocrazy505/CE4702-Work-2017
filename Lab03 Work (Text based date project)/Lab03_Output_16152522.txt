@@ -1,0 +1,44 @@
+Test #1, Check that nextDay works for the last day of the year
+Before date: 31-12-2016
+After date: 1-1-2017
+Test passed
+
+Date object constructor for date 28-2-2016
+Test #2, Check that nextDay works for 2016 leap year
+Before date: 28-2-2016
+After date: 29-2-2016
+Test passed
+
+Test #3, Check that nextDay works for standard day passing
+Before date: 25-6-2017
+After date: 26-6-2017
+Test passed
+
+Date object constructor for date 28-2-2020
+Test #4, Check that nextDay works for a future leap year
+Before date: 28-2-2020
+After date: 29-2-2020
+Test passed
+
+Test #5, Check that nextDay works for non-leap year
+Before date: 28-2-2017
+After date: 1-3-2017
+Test passed
+
+Date object constructor for date 31-5-2017
+Test #6, Check that nextDay works for end of 31 day month
+Before date: 31-5-2017
+After date: 1-6-2017
+Test passed
+
+Test #7, Check that nextDay works for another random day
+Before date: 25-10-1985
+After date: 26-10-1985
+Test passed
+
+Date object constructor for date 30-9-2017
+Test #8, Check that nextDay works for end of 30 day month
+Before date: 30-9-2017
+After date: 1-10-2017
+Test passed
+

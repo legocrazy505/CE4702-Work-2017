@@ -1,0 +1,82 @@
+Employees processed individually:
+
+salaried employee: John Smith
+social security number: 111-11-1111
+weekly salary: €800.00
+earned: €800.00
+
+hourly employee: Karen Price
+social security number: 222-22-2222
+hourly wage: €16.75; hours worked: 40.00
+earned: €670.00
+
+commission employee: Sue Jones
+social security number: 333-33-3333
+gross sales: €10,000.00; commission rate: 0.06
+earned: €600.00
+
+base-salaried commission employee: Bob Lewis
+social security number: 444-44-4444
+gross sales: €5,000.00; commission rate: 0.04; base salary: €300.00
+earned: €500.00
+
+piece worker: Di Gress
+social security number: 555-55-5555
+piece rate: €3.25; number of pieces: 40
+earned: €130.00
+
+hourly employee: Per Pear
+social security number: 111-22-3333
+hourly wage: €20.50; hours worked: 38.00
+earned: €779.00
+
+piece worker: Murdo Mackenzie
+social security number: 16152522
+piece rate: €5.50; number of pieces: 30
+earned: €165.00
+
+Employees processed polymorphically:
+
+salaried employee: John Smith
+social security number: 111-11-1111
+weekly salary: €800.00
+earned €800.00
+
+hourly employee: Karen Price
+social security number: 222-22-2222
+hourly wage: €16.75; hours worked: 40.00
+earned €670.00
+
+commission employee: Sue Jones
+social security number: 333-33-3333
+gross sales: €10,000.00; commission rate: 0.06
+earned €600.00
+
+base-salaried commission employee: Bob Lewis
+social security number: 444-44-4444
+gross sales: €5,000.00; commission rate: 0.04; base salary: €300.00
+new base salary with 10% increase is: €330.00
+earned €530.00
+
+piece worker: Di Gress
+social security number: 555-55-5555
+piece rate: €3.25; number of pieces: 40
+earned €130.00
+
+hourly employee: Per Pear
+social security number: 111-22-3333
+hourly wage: €20.50; hours worked: 38.00
+earned €779.00
+
+piece worker: Murdo Mackenzie
+social security number: 16152522
+piece rate: €5.50; number of pieces: 30
+earned €165.00
+
+Employee 0 is a SalariedEmployee
+Employee 1 is a HourlyEmployee
+Employee 2 is a CommissionEmployee
+Employee 3 is a BasePlusCommissionEmployee
+Employee 4 is a PieceWorker
+Employee 5 is a HourlyEmployee
+Employee 6 is a PieceWorker
